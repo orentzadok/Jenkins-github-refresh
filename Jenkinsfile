@@ -1,5 +1,5 @@
 pipeline{
-   host any
+   agent any
    stages{
      stage('print hello'){
        steps{
