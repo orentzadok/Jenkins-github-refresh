@@ -12,5 +12,11 @@ pipeline{
          sh 'hostname'
        }
      }
+      stage('workplace'){
+         steps{
+            sh 'pwd'
+            sh 'ls -la'
+         }
+      }
    }
 }
